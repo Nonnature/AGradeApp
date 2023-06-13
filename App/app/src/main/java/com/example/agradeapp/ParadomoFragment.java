@@ -177,7 +177,7 @@ public class ParadomoFragment extends Fragment {
                     textView.setText("30:00");
                     progressBar.setEnabled(true);
                     linearLayout.setEnabled(true);
-                    Toast.makeText(getActivity(), "Paradomo Cancelled", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Pomodoro Cancelled", Toast.LENGTH_SHORT).show();
                 }
                 else {
                     timer_is_running=true;
@@ -217,7 +217,7 @@ public class ParadomoFragment extends Fragment {
                             NotificationCompat.Builder builder = new NotificationCompat.Builder(requireContext(), "notifications")
                                     .setSmallIcon(R.drawable.app_icon)
                                     .setContentTitle("A Grade")
-                                    .setContentText("Paradomo has done! Nice job!")
+                                    .setContentText("Pomodoro has done! Nice job!")
                                     .setPriority(NotificationCompat.PRIORITY_HIGH)
                                     .setVibrate(new long[] {100, 1000, 200, 340})
                                     .setAutoCancel(true);

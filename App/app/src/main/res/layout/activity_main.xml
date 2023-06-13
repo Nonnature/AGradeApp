@@ -15,7 +15,7 @@
             android:id="@+id/topAppBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="Paradomo"
+            app:title="Pomodoro"
             app:navigationIcon="@drawable/ic_baseline_menu_24"
             android:background="@color/white"
             app:titleCentered="true"
